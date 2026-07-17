@@ -2,15 +2,15 @@
 class Solution {
     public int divide(int dividend, int divisor) {
 
-        // Overflow case
+        
         if (dividend == Integer.MIN_VALUE && divisor == -1) {
             return Integer.MAX_VALUE;
         }
 
-        // Sign of answer
+        
         boolean negative = (dividend < 0) ^ (divisor < 0);
 
-        // Convert to positive long
+        
         long dvd = Math.abs((long) dividend);
         long dvs = Math.abs((long) divisor);
 
