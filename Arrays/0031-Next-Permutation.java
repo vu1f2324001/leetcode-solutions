@@ -19,7 +19,7 @@ int i = nums.length - 2;
         swap(nums, i, j);  
     }  
 
-    // Step 3: Reverse the remaining part  
+
     reverse(nums, i + 1, nums.length - 1);  
 }  
 
