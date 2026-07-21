@@ -2,8 +2,7 @@ class Solution {
 public void nextPermutation(int[] nums) {
 
 int i = nums.length - 2;  
-
-    // Step 1: Find first decreasing element  
+  
     while (i >= 0 && nums[i] >= nums[i + 1]) {  
         i--;  
     }  
