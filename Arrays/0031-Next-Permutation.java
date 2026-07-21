@@ -8,7 +8,7 @@ int i = nums.length - 2;
         i--;  
     }  
 
-    // Step 2: Find just greater element and swap  
+      
     if (i >= 0) {  
         int j = nums.length - 1;  
 
