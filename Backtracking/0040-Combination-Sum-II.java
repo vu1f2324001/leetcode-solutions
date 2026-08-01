@@ -38,7 +38,6 @@ private void backtrack(int[] candidates, int target, int start,
 
         current.add(candidates[i]);  
 
-      
         backtrack(candidates, target - candidates[i], i + 1, current, ans);  
 
         current.remove(current.size() - 1);  
