@@ -17,5 +17,4 @@ int jumps = 0;
 
     return jumps;  
 }
-
 }
