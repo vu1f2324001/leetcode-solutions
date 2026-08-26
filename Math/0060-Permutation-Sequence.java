@@ -17,7 +17,7 @@ List<Integer> numbers = new ArrayList<>();
         fact = fact * i;  
     }  
 
-      
+     
     k = k - 1;  
 
     StringBuilder ans = new StringBuilder();  
