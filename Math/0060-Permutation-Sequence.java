@@ -10,7 +10,7 @@ List<Integer> numbers = new ArrayList<>();
         numbers.add(i);  
     }  
 
-      
+     
     int fact = 1;  
 
     for (int i = 1; i < n; i++) {  
