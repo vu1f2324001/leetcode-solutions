@@ -21,7 +21,7 @@ int[] heights = new int[cols];
 
     return maxArea;  
 }  
-
+    
 private int largestRectangleArea(int[] heights) {  
     Stack<Integer> stack = new Stack<>();  
     int maxArea = 0;  
